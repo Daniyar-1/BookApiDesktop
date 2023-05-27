@@ -21,7 +21,7 @@ fun App() {
     }
 }
 fun main() = application {
-    val iconApp = BitmapPainter(useResource("drawable/app_icon.png", ::loadImageBitmap))
+    val iconApp = BitmapPainter(useResource(    "drawable/app_icon.png", ::loadImageBitmap))
 
     val icon = painterResource("drawable/app_icon.png")
     Tray(
